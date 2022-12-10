@@ -1,0 +1,28 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	
+}
+p {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 6%;
+	color:  gray;
+	
+}	
+button {
+	   
+    color: red;
+   
+    display: block;
+    margin: auto;
+}
+ myImage {
+  padding: 2px;  
+  font-size: 20px; 
+  margin-right: 100px;
+  color: #001a00;
+  margin-bottom: 100px;
+  
+}

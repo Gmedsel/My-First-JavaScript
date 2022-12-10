@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bulb</title>
+<link rel="stylesheet" href="style.css">
+<style>
+button {
+	 font-size: 20px;  
+    color: #00FFFF;
+    padding: 8px;
+    border-radius: 6px;
+   margin-left: 30%;
+   margin-bottom: 10px;
+   background-color: white;
+   transition-duration: 0.5s;
+   border: none;
+   font-weight: bold;
+  
+}
+button:hover{
+ 
+  background-color: black;
+  
+}
+</style>
+</head>
+<body>
+<p>Just Javascript thing</p>
+
+<img id="myImage" src="bulboff.jpg">
+ <button onclick="myFunction()">Turn on the light</button>
+ <button onclick="myFunction1()">Turn off the light</button>
+ 
+</div>
+<script>
+
+function myFunction1 () {
+    document.getElementById("myImage").src="bulboff.jpg";
+} 
+function myFunction() {
+     document.getElementById("myImage").src="bulbon.jpg";
+ }
+</script>
+</div>
+
+</body>
+</html>
